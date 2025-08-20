@@ -1,0 +1,213 @@
+{
+  "specimen": {
+    "wbsp": {
+      "uz": "Qon/Serum/Plazma",
+      "ru": "Кровь/Сыворотка/Плазма",
+      "en": "WB/S/P"
+    },
+    "feces": {
+      "uz": "Najas",
+      "ru": "Кал",
+      "en": "Feces"
+    },
+    "urine": {
+      "uz": "Siydik",
+      "ru": "Моча",
+      "en": "Urine"
+    }
+  },
+  "format": {
+    "cassette": {
+      "uz": "Kaseta",
+      "ru": "Кассета",
+      "en": "Cassette"
+    },
+    "strip": {
+      "uz": "Tasma",
+      "ru": "Полоска",
+      "en": "Strip"
+    }
+  },
+  "products": [
+    {
+      "code": "OAFP-S41",
+      "name": {
+        "uz": "AFP Tezkor Test Tasma",
+        "ru": "Быстрый тест на АФП (полоска)",
+        "en": "AFP Rapid Test Strip"
+      },
+      "specimen": "wbsp",
+      "format": "strip",
+      "pack": "50 T",
+      "cert": "CE"
+    },
+    {
+      "code": "OAFP-C41",
+      "name": {
+        "uz": "AFP Tezkor Test Kaseta",
+        "ru": "Быстрый тест на АФП (кассета)",
+        "en": "AFP Rapid Test Cassette"
+      },
+      "specimen": "wbsp",
+      "format": "cassette",
+      "pack": "10 T",
+      "cert": "CE"
+    },
+    {
+      "code": "OCEA-C41",
+      "name": {
+        "uz": "CEA Tezkor Test Kaseta",
+        "ru": "Быстрый тест на РЭА (кассета)",
+        "en": "CEA Rapid Test Cassette"
+      },
+      "specimen": "wbsp",
+      "format": "cassette",
+      "pack": "10 T",
+      "cert": "CE"
+    },
+    {
+      "code": "OFOB-S61",
+      "name": {
+        "uz": "FOB Tezkor Test Tasma",
+        "ru": "Быстрый тест на скрытую кровь (полоска)",
+        "en": "FOB Rapid Test Strip"
+      },
+      "specimen": "feces",
+      "format": "strip",
+      "pack": "20 T",
+      "cert": "CE"
+    },
+    {
+      "code": "OFOB-S61H",
+      "name": {
+        "uz": "FOB Tezkor Test Tasma (O'z-o'zini tekshirish)",
+        "ru": "Быстрый тест на скрытую кровь (полоска, самотест)",
+        "en": "FOB Rapid Test Strip (Self-Testing)"
+      },
+      "specimen": "feces",
+      "format": "strip",
+      "pack": "1 T",
+      "cert": "CE0123"
+    },
+    {
+      "code": "OFOB-C61",
+      "name": {
+        "uz": "FOB Tezkor Test Kaseta",
+        "ru": "Быстрый тест на скрытую кровь (кассета)",
+        "en": "FOB Rapid Test Cassette"
+      },
+      "specimen": "feces",
+      "format": "cassette",
+      "pack": "10 T",
+      "cert": "CE"
+    },
+    {
+      "code": "OFOB-C61H",
+      "name": {
+        "uz": "FOB Tezkor Test Kaseta (O'z-o'zini tekshirish)",
+        "ru": "Быстрый тест на скрытую кровь (кассета, самотест)",
+        "en": "FOB Rapid Test Cassette (Self-Testing)"
+      },
+      "specimen": "feces",
+      "format": "cassette",
+      "pack": "1 T",
+      "cert": "CE0123"
+    },
+    {
+      "code": "OFTC-C62",
+      "name": {
+        "uz": "FOB/Transferrin Tezkor Test Kaseta",
+        "ru": "Быстрый тест на скрытую кровь/трансферрин (кассета)",
+        "en": "FOB/Transferrin Rapid Test Cassette"
+      },
+      "specimen": "feces",
+      "format": "cassette",
+      "pack": "10 T",
+      "cert": "CE"
+    },
+    {
+      "code": "OPSA-S41",
+      "name": {
+        "uz": "PSA Tezkor Test Tasma",
+        "ru": "Быстрый тест на ПСА (полоска)",
+        "en": "PSA Rapid Test Strip"
+      },
+      "specimen": "wbsp",
+      "format": "strip",
+      "pack": "50 T",
+      "cert": "-"
+    },
+    {
+      "code": "OPSA-C42",
+      "name": {
+        "uz": "PSA Tezkor Test Kaseta",
+        "ru": "Быстрый тест на ПСА (кассета)",
+        "en": "PSA Rapid Test Cassette"
+      },
+      "specimen": "wbsp",
+      "format": "cassette",
+      "pack": "10/25 T",
+      "cert": "CE0123"
+    },
+    {
+      "code": "OPSA-C41",
+      "name": {
+        "uz": "PSA Tezkor Test Kaseta",
+        "ru": "Быстрый тест на ПСА (кассета)",
+        "en": "PSA Rapid Test Cassette"
+      },
+      "specimen": "wbsp",
+      "format": "cassette",
+      "pack": "10 T",
+      "cert": "-"
+    },
+    {
+      "code": "OCA15-C42",
+      "name": {
+        "uz": "CA15-3 Tezkor Test Kaseta",
+        "ru": "Быстрый тест на CA15-3 (кассета)",
+        "en": "CA15-3 Rapid Test Cassette"
+      },
+      "specimen": "wbsp",
+      "format": "cassette",
+      "pack": "10 T",
+      "cert": "CE"
+    },
+    {
+      "code": "OLF-C61",
+      "name": {
+        "uz": "Laktoferrin Tezkor Test Kaseta",
+        "ru": "Быстрый тест на лактоферрин (кассета)",
+        "en": "Lactoferrin Rapid Test Cassette"
+      },
+      "specimen": "feces",
+      "format": "cassette",
+      "pack": "10 T",
+      "cert": "CE"
+    },
+    {
+      "code": "OFE-C41",
+      "name": {
+        "uz": "Ferritin Tezkor Test Kaseta",
+        "ru": "Быстрый тест на ферритин (кассета)",
+        "en": "Ferritin Rapid Test Cassette"
+      },
+      "specimen": "wbsp",
+      "format": "cassette",
+      "pack": "25 T",
+      "cert": "CE"
+    },
+    {
+      "code": "OBTA-C11",
+      "name": {
+        "uz": "Pufak O‘sma Antigeni Tezkor Test Kaseta",
+        "ru": "Быстрый тест на антиген опухоли мочевого пузыря (кассета)",
+        "en": "Bladder Tumor Antigen Rapid Test Cassette"
+      },
+      "specimen": "urine",
+      "format": "cassette",
+      "pack": "25 T",
+      "cert": "CE"
+    }
+  ]
+}
