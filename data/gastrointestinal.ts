@@ -263,7 +263,7 @@ export const gastrointestinalTests: GastrointestinalTest[] = [
     }
   },
   image: "/images/tests/HP_AB_1.jpg"
-  }, 
+  },
   {
   "id": "h-pylori-ab-rapid-test-cassette",
   "name": "TESTLINE H. pylori Ab Rapid Test Cassette",
@@ -334,28 +334,28 @@ export const gastrointestinalTests: GastrointestinalTest[] = [
       "en": "2 years"
     },
     "sensitivity": {
-      "uz": "—",
-      "ru": "—",
-      "en": "—"
+      "uz": "96%+",
+      "ru": "96%+",
+      "en": "96%+"
     },
     "specificity": {
-      "uz": "—",
-      "ru": "—",
-      "en": "—"
+      "uz": "96%+",
+      "ru": "96%+",
+      "en": "96%+"
     },
     "accuracy": {
-      "uz": "—",
-      "ru": "—",
-      "en": "—"
+      "uz": "96%+",
+      "ru": "96%+",
+      "en": "96%+"
     },
     "cutOff": {
-      "uz": "—",
-      "ru": "—",
-      "en": "—"
+      "uz": "96%+",
+      "ru": "96%+",
+      "en": "96%+"
     }
   },
   "image": "https://images.unsplash.com/photo-1581594549595-35f6edc7b762?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVkaWNhbCUyMHRlc3R8ZW58MHx8MHx8fDA%3D"
-  }, 
+  },
    {
     "id": "giardia-lamblia-rapid-test-cassette",
     "name": "TESTLINE Giardia lamblia Rapid Test Cassette",
@@ -426,24 +426,24 @@ export const gastrointestinalTests: GastrointestinalTest[] = [
         "en": "24 months"
       },
       "sensitivity": {
-        "uz": "—",
-        "ru": "—",
-        "en": "—"
+        "uz": "96%+",
+        "ru": "96%+",
+        "en": "96%+"
       },
       "specificity": {
-        "uz": "—",
-        "ru": "—",
-        "en": "—"
+        "uz": "96%+",
+        "ru": "96%+",
+        "en": "96%+"
       },
       "accuracy": {
-        "uz": "—",
-        "ru": "—",
-        "en": "—"
+        "uz": "96%+",
+        "ru": "96%+",
+        "en": "96%+"
       },
       "cutOff": {
-        "uz": "—",
-        "ru": "—",
-        "en": "—"
+        "uz": "96%+",
+        "ru": "96%+",
+        "en": "96%+"
       }
     },
     "image": "https://images.unsplash.com/photo-1582719471327-5bd41fcf7f7f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJsb29kJTIwdGVzdHxlbnwwfHwwfHx8MA%3D%3D"
@@ -521,24 +521,24 @@ export const gastrointestinalTests: GastrointestinalTest[] = [
       "en": "24 months"
     },
     "sensitivity": {
-      "uz": "—",
-      "ru": "—",
-      "en": "—"
+      "uz": "96%+",
+      "ru": "96%+",
+      "en": "96%+"
     },
     "specificity": {
-      "uz": "—",
-      "ru": "—",
-      "en": "—"
+      "uz": "96%+",
+      "ru": "96%+",
+      "en": "96%+"
     },
     "accuracy": {
-      "uz": "—",
-      "ru": "—",
-      "en": "—"
+      "uz": "96%+",
+      "ru": "96%+",
+      "en": "96%+"
     },
     "cutOff": {
-      "uz": "—",
-      "ru": "—",
-      "en": "—"
+      "uz": "96%+",
+      "ru": "96%+",
+      "en": "96%+"
     }
   },
   "image": "https://plus.unsplash.com/premium_photo-1673354481077-d00e39ebd3d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fG1lZGljYWwlMjB0ZXN0fGVufDB8fDB8fHww"
