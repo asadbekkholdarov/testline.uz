@@ -46,8 +46,8 @@ export default function Contact() {
     return Object.keys(newErrors).length === 0;
   };
 
-  const TELEGRAM_BOT_TOKEN = '7823428141:AAGRCRPJe0OgT8NNiaiNofojihjSw35Majg'; // TODO: Replace with your bot token
-  const TELEGRAM_CHAT_ID = '491621576'; // TODO: Replace with your chat ID
+  const TELEGRAM_BOT_TOKEN = '8226782987:AAEbnX4jYgpEWr549u8-HDgl-a4JzN-Zguw'; // TODO: Replace with your bot token
+  const TELEGRAM_CHAT_ID = '965192292'; // TODO: Replace with your chat ID
 
   const sendToTelegram = async (data: typeof formData) => {
     const message = `New Contact Form Submission:%0AName: ${data.name}%0AEmail: ${data.email}%0ASubject: ${data.subject}%0AMessage: ${data.message}`;

@@ -55,7 +55,7 @@ export default function RapidDiagnosticTests() {
         ru: 'Обнаружение заболеваний пищеварительной системы',
         en: 'Detection of digestive system diseases',
       },
-      image: '/images/rapid/gastrointestinal.jpg',
+      image: '/images/rapid/Gastrointestinal.jpg',
       productCount: 6,
     },
     {

@@ -3,9 +3,10 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Users, Award, Globe, Heart, FileCheck } from 'lucide-react';
+import { Users, Award, Globe, Heart, FileCheck, X } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Timeline from '@/components/Timeline';
+import { Button } from '@/components/ui/button';
 
 export default function About() {
   const { t, language } = useLanguage();
@@ -373,26 +374,28 @@ export default function About() {
               className="bg-white rounded-lg shadow-lg p-3 relative max-w-2xl w-full flex flex-col items-center m-8"
               onClick={(e) => e.stopPropagation()}
             >
-              <button
+              <Button
+                variant="ghost"
+                size="icon"
                 className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 text-2xl"
                 onClick={() => setSelectedCert(null)}
                 aria-label="Close"
               >
-                &times;
-              </button>
+                <X></X>
+              </Button>
               <div
                 className="flex justify-center items-center w-full"
-                style={{ height: '85vh' }}
+                style={{ height: '90vh' }}
               >
                 <Image
                   src={selectedCert.src}
                   alt={selectedCert.alt}
-                  width={400}
-                  height={600}
+                  width={380}
+                  height={490}
                   className="rounded-lg mb-4 object-contain"
                   style={{
-                    height: '100vh',
-                    maxHeight: '100vh',
+                    height: '90vh',
+                    maxHeight: '90vh',
                     width: '100vw',
                     maxWidth: '100%',
                     transform: 'rotate(270deg)',
